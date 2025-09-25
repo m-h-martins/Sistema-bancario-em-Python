@@ -1,6 +1,6 @@
 # Sistema bancário | Banco MHM
 
-Construção de um sistema bancário onde o usuário pode realizar depósitos, saques e consultar seu extrato.
+Construção de um sistema bancário(De nome fictício) onde o usuário pode realizar depósitos, saques e consultar seu extrato.
 
 
 
