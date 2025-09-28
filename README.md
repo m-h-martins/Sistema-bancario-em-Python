@@ -6,10 +6,10 @@ Construção de um sistema bancário(De nome fictício) onde o usuário pode rea
 
 ## Funcionalidades:
 
-- Depósitos
-- Saques
-- Extrato
-- Sair do sistema
+- Depósitos (Deposita o valor definido e armazena a transação no extrato);
+- Saques (Realiza o saque do valor definido e quantifica quais e quantas serão as cédulas entregues ao cliente, também armazena a transação no extrato);
+- Extrato (Exibe o extrato com todas as transações realizadas no programa e o saldo atual do cliente);
+- Sair do sistema (Opção para encerrar o sistema)
 
 
 
