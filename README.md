@@ -1,27 +1,49 @@
-# Sistema bancário | Banco MHM
+# 🏦 Sistema Bancário em Python
 
-Construção de um sistema bancário(De nome fictício) onde o usuário pode realizar depósitos, saques e consultar seu extrato.
+Este projeto é um **sistema bancário orientado a objetos** desenvolvido em Python, com foco em boas práticas de programação, reutilização de código e organização em classes.  
+Ele permite o **cadastro de clientes, criação de contas, depósitos, saques e exibição de extratos**, simulando operações básicas de um banco.
 
+---
 
+## 🚀 Funcionalidades
 
-## Funcionalidades:
+- 👤 **Cadastro de clientes (Pessoa Física)**  
+  Permite registrar novos clientes com nome, CPF, data de nascimento e endereço.
 
-- Depósitos (Deposita o valor definido e armazena a transação no extrato);
-- Saques (Realiza o saque do valor definido e quantifica quais e quantas serão as cédulas entregues ao cliente, também armazena a transação no extrato);
-- Extrato (Exibe o extrato com todas as transações realizadas no programa e o saldo atual do cliente);
-- Novo usuário (Cadastra novos usuários no sistema);
-- Nova conta (Cadastra novas contas no sistema a partir dos usuários existentes);
-- Listar contas (Lista todas as contas criadas no sistema);
-- Sair do sistema (Opção para encerrar o sistema)
+- 💳 **Criação de contas correntes**  
+  Cada cliente pode possuir uma ou mais contas associadas.
 
+- 💰 **Depósito**  
+  Permite realizar depósitos em contas existentes.
 
+- 💸 **Saque com limite**  
+  Saques limitados por valor e quantidade máxima de operações diárias.
 
-## Restrições:
-O sistema impõe algumas restrições ao usuário como: 
-- Quantidade de saques (3);
-- Limite de valor por saque (R$ 500,00);
-- Somente usuários cadastrados podem criar novas contas.
+- 📜 **Extrato detalhado**  
+  Exibe todas as transações (depósitos e saques) com data, valor e tipo.
 
-## Referências:
-- [Python.org](https://docs.python.org/3/reference/index.html)
-- [DIO](https://web.dio.me/home)
+- 📄 **Listagem de contas**  
+  Mostra todas as contas cadastradas com dados do titular.
+
+---
+
+## 🧠 Conceitos Utilizados
+
+O projeto aplica diversos conceitos de **Programação Orientada a Objetos (POO)**:
+
+| Conceito | Descrição |
+|-----------|------------|
+| **Classe e Objeto** | Representam entidades como `Cliente`, `Conta`, `Transacao`, etc. |
+| **Herança** | A classe `ContaCorrente` herda de `Conta`. |
+| **Abstração** | A classe `Transacao` é abstrata e serve como modelo para `Saque` e `Deposito`. |
+| **Encapsulamento** | Atributos privados com prefixo `_` para proteger dados sensíveis. |
+| **Composição** | A classe `Conta` contém um `Historico` que registra as transações. |
+
+---
+
+##🎓 Referências
+
+Este projeto foi desenvolvido com base nos conteúdos e desafios práticos do curso 📘 Suzano - Python Developer
+ da Digital Innovation One (DIO)
+.
+A atividade faz parte dos módulos voltados a Programação Orientada a Objetos (POO).
