@@ -41,9 +41,22 @@ O projeto aplica diversos conceitos de **Programação Orientada a Objetos (POO)
 
 ---
 
-##🎓 Referências
+## 🎓 Referências
 
 Este projeto foi desenvolvido com base nos conteúdos e desafios práticos do curso 📘 Suzano - Python Developer
  da Digital Innovation One (DIO)
 .
 A atividade faz parte dos módulos voltados a Programação Orientada a Objetos (POO).
+
+---
+
+## 👤 Autor
+
+**Nome:** Murilo Humberto Martins  
+**Área:** Estudante de Análise e Desenvolvimento de Sistemas + Engenharia de Produção
+
+🔗**LinkedIn:** https://www.linkedin.com/in/murilo-humberto-martins  
+🔗**GitHub:** https://github.com/m-h-martins 
+
+💡 Apaixonado por dados, processos e melhoria contínua, tecnologia, automação e soluções inteligentes.  
+Desenvolvo projetos que combinam **análise de dados**, **IA aplicada** e **melhoria de processos**, sempre buscando eficiência e aprendizado contínuo.
